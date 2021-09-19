@@ -2,8 +2,8 @@ name: Staging deployment
 
 on: 
   pull_request:
-    type: [labeled]
+    types: [labeled]
     
 jobs:
   build:
-    run-on: ubuntu:latest
+    runs-on: ubuntu:latest
